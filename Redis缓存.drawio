@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T06:07:26.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Szy-Ip4tXCua1TNoAbj9" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T06:12:44.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Xr6FoFrKTYg87GSKnuKC" version="23.1.5" type="github">
   <diagram name="第 1 页" id="hsL5zEzna-w4BdSbxTTW">
     <mxGraphModel dx="1026" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,77 +121,156 @@
         <mxCell id="rBkjVvntu-3yIy-otj2K-41" value="布隆过滤器&lt;br&gt;判断是否存在" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="450" width="75" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-1" value="更新缓存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="800" width="120" height="80" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="682.5" width="789" height="315" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VwoO59BPZTYPGztkrhG4-2">
+        <mxCell id="VwoO59BPZTYPGztkrhG4-1" value="更新缓存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry y="117.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-21" source="VwoO59BPZTYPGztkrhG4-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="750" as="targetPoint" />
+            <mxPoint x="370" y="67.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-2" value="先更新数据库&lt;br&gt;后更新缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-2" value="先更新数据库&lt;br&gt;后更新缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="180" y="37.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VwoO59BPZTYPGztkrhG4-3">
+        <mxCell id="VwoO59BPZTYPGztkrhG4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-21" source="VwoO59BPZTYPGztkrhG4-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="930" as="targetPoint" />
+            <mxPoint x="370" y="247.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-3" value="先更新缓存&lt;br&gt;后更新数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="900" width="120" height="60" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-3" value="先更新缓存&lt;br&gt;后更新数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="180" y="217.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="VwoO59BPZTYPGztkrhG4-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="435.5" y="752" as="sourcePoint" />
-            <mxPoint x="829" y="752.5" as="targetPoint" />
+            <mxPoint x="395.5" y="69.5" as="sourcePoint" />
+            <mxPoint x="789" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-5" value="请求A&lt;br&gt;更新数据库&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444.5" y="682.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-5" value="请求A&lt;br&gt;更新数据库&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="404.5" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-6" value="请求A&lt;br&gt;更新缓存&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="682.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-6" value="请求A&lt;br&gt;更新缓存&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="690" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-7" value="请求B&lt;br&gt;更新数据库&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="682.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-7" value="请求B&lt;br&gt;更新数据库&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="500" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-8" value="请求B&lt;br&gt;更新缓存&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="682.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-8" value="请求B&lt;br&gt;更新缓存&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="600" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-9" value="最后&lt;br&gt;数据库为2&lt;br&gt;缓存为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="772.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-9" value="最后&lt;br&gt;数据库为2&lt;br&gt;缓存为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="550" y="90" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VwoO59BPZTYPGztkrhG4-2">
+        <mxCell id="VwoO59BPZTYPGztkrhG4-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-21" target="VwoO59BPZTYPGztkrhG4-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="840" as="sourcePoint" />
-            <mxPoint x="210" y="790" as="targetPoint" />
+            <mxPoint x="120" y="157.5" as="sourcePoint" />
+            <mxPoint x="170" y="107.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="VwoO59BPZTYPGztkrhG4-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="435.5" y="932" as="sourcePoint" />
-            <mxPoint x="829" y="932.5" as="targetPoint" />
+            <mxPoint x="395.5" y="249.5" as="sourcePoint" />
+            <mxPoint x="789" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-12" value="请求A&lt;br&gt;更新缓存&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444.5" y="862.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-12" value="请求A&lt;br&gt;更新缓存&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="404.5" y="180" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-13" value="请求A&lt;br&gt;更新数据库&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="862.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-13" value="请求A&lt;br&gt;更新数据库&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="690" y="180" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-14" value="请求B&lt;br&gt;更新缓存&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="862.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-14" value="请求B&lt;br&gt;更新缓存&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="500" y="180" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-15" value="请求B&lt;br&gt;更新数据库&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="862.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-15" value="请求B&lt;br&gt;更新数据库&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="600" y="180" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-16" value="最后&lt;br&gt;数据库为1&lt;br&gt;缓存为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="952.5" width="75" height="45" as="geometry" />
+        <mxCell id="VwoO59BPZTYPGztkrhG4-16" value="最后&lt;br&gt;数据库为1&lt;br&gt;缓存为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-21">
+          <mxGeometry x="550" y="270" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VwoO59BPZTYPGztkrhG4-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VwoO59BPZTYPGztkrhG4-3">
+        <mxCell id="VwoO59BPZTYPGztkrhG4-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-21" target="VwoO59BPZTYPGztkrhG4-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="840" as="sourcePoint" />
-            <mxPoint x="210" y="790" as="targetPoint" />
+            <mxPoint x="120" y="157.5" as="sourcePoint" />
+            <mxPoint x="170" y="107.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="1100" width="789" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-23" value="删除缓存&lt;br&gt;（旁路缓存）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry y="117.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-22" source="VwoO59BPZTYPGztkrhG4-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="67.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-25" value="先删除缓存&lt;br&gt;后更新数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="180" y="37.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-22" source="VwoO59BPZTYPGztkrhG4-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="247.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-27" value="先更新数据库&lt;br&gt;后删除缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="180" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395.5" y="69.5" as="sourcePoint" />
+            <mxPoint x="789" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-29" value="请求A&lt;br&gt;更新数据库&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="404.5" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-30" value="请求A&lt;br&gt;更新缓存&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="690" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-31" value="请求B&lt;br&gt;更新数据库&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="500" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-32" value="请求B&lt;br&gt;更新缓存&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="600" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-33" value="最后&lt;br&gt;数据库为2&lt;br&gt;缓存为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="550" y="90" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-22" target="VwoO59BPZTYPGztkrhG4-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="157.5" as="sourcePoint" />
+            <mxPoint x="170" y="107.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395.5" y="249.5" as="sourcePoint" />
+            <mxPoint x="789" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-36" value="请求A&lt;br&gt;更新缓存&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="404.5" y="180" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-37" value="请求A&lt;br&gt;更新数据库&lt;br&gt;为1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="690" y="180" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-38" value="请求B&lt;br&gt;更新缓存&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="500" y="180" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-39" value="请求B&lt;br&gt;更新数据库&lt;br&gt;为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="600" y="180" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-40" value="最后&lt;br&gt;数据库为1&lt;br&gt;缓存为2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VwoO59BPZTYPGztkrhG4-22">
+          <mxGeometry x="550" y="270" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VwoO59BPZTYPGztkrhG4-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VwoO59BPZTYPGztkrhG4-22" target="VwoO59BPZTYPGztkrhG4-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="157.5" as="sourcePoint" />
+            <mxPoint x="170" y="107.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
