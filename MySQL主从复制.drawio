@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T06:28:28.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.5" etag="TxbKAGKFpeTFsnsIIVyP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T06:31:25.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="AzxhANUCfd84c-ibyCGU" version="23.1.5" type="github">
   <diagram name="第 1 页" id="Av4v7TLWonqns1O9k0ub">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1Eyk99U5cHPZIQoc4xA-2" target="k1Eyk99U5cHPZIQoc4xA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-2" value="主节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-3" value="从节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="334" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1Eyk99U5cHPZIQoc4xA-4" target="k1Eyk99U5cHPZIQoc4xA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-4" value="binlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="210" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1Eyk99U5cHPZIQoc4xA-5" target="k1Eyk99U5cHPZIQoc4xA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-5" value="relay log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="210" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-7" value="网络IO线程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1Eyk99U5cHPZIQoc4xA-10" value="SQL线程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
