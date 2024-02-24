@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T04:48:00.636Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2fvmvQD6R2A9bJ1mR7gi" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T05:08:13.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WnHtPF5jrjKv4UULnR3g" version="23.1.6" type="github">
   <diagram name="第 1 页" id="g__cL9et6w1Bz4wDRFb3">
     <mxGraphModel dx="1853" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,6 +274,15 @@
         </mxCell>
         <mxCell id="Nw0icb2rBlRomqgOzCDh-23" value="HTTP缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="159" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-24" value="强制缓存&lt;br&gt;浏览器决定" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="2180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-25" value="协商缓存&lt;br&gt;发送请求服务端协商" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-26" value="cache control&lt;br&gt;过期时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="61.5" y="2270" width="75" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
