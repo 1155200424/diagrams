@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T05:42:42.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WsI4mIXHKbrH-1kkbE7q" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T06:11:57.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="z4i6gAKHGUihKzQLt2GG" version="23.1.6" type="github">
   <diagram name="第 1 页" id="g__cL9et6w1Bz4wDRFb3">
     <mxGraphModel dx="1853" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,6 +369,24 @@
         </mxCell>
         <mxCell id="Nw0icb2rBlRomqgOzCDh-61" value="自定义" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="2930" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-62" value="协议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="2980" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-63" value="通常TCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="2980" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-64" value="TCP/UDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="2980" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-65" value="HTTP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="3110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-66" value="WebSocket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="3110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-67" value="三次握手后&lt;br&gt;HTTP升级WebSocket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="3200" width="75" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
