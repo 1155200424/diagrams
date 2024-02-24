@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T05:23:47.187Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KKMua4p1wUy4FA63L2Jq" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T05:38:59.620Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="RpSfC89xpIrYH3Qc-gAL" version="23.1.6" type="github">
   <diagram name="第 1 页" id="g__cL9et6w1Bz4wDRFb3">
     <mxGraphModel dx="1853" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,6 +336,30 @@
         </mxCell>
         <mxCell id="Nw0icb2rBlRomqgOzCDh-47" value="加密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-45" y="2500" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-49" value="HTTP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-50" value="RPC&lt;br&gt;远程过程调用" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-52" value="DNS查询IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="2830" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-54" value="服务发现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="2830" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-55" value="中间服务保存IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="2830" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-56" value="底层连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="2880" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-57" value="TCP长连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="2880" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Nw0icb2rBlRomqgOzCDh-58" value="连接池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="2880" width="75" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
