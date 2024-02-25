@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T13:20:34.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-U6v_GSz9C8mHEgcMeHt" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T13:27:47.323Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mWVqCRipeLr5i3FqMb2a" version="23.1.6" type="github">
   <diagram name="第 1 页" id="g__cL9et6w1Bz4wDRFb3">
-    <mxGraphModel dx="2093" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cXm0hrUkM8Iz5NWa8tWo-20" value="第三次握手可以携带数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="3670" width="145" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="aSiWcfBO7DVynULOfoQH-1" value="应用层&lt;br&gt;Application" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="100" width="120" height="60" as="geometry" />
         </mxCell>
@@ -440,7 +443,19 @@
           <mxGeometry x="447.5" y="3700" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cXm0hrUkM8Iz5NWa8tWo-19" value="ACK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="217" y="3670" width="60" height="30" as="geometry" />
+          <mxGeometry x="225" y="3640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXm0hrUkM8Iz5NWa8tWo-21" value="Seq_num = 90" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="233" y="3520" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXm0hrUkM8Iz5NWa8tWo-22" value="ACK_num = 90 + 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="233" y="3590" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXm0hrUkM8Iz5NWa8tWo-24" value="Seq_num = 300" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="3610" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXm0hrUkM8Iz5NWa8tWo-25" value="ACK_num = 300 + 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="3700" width="116" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
