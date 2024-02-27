@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T07:23:47.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="W5S697DA7Ttvkm-JGqZA" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T07:55:28.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1_ibD2C9agHIY3RhWCE8" version="23.1.6" type="github">
   <diagram name="第 1 页" id="N3g3eYjx2cAfwvjbyYHu">
     <mxGraphModel dx="1140" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -332,7 +332,7 @@
         <mxCell id="-Dbx7_Q4W2dPH2tqTiiN-65" value="" style="group" vertex="1" connectable="0" parent="-Dbx7_Q4W2dPH2tqTiiN-64">
           <mxGeometry x="-110" y="-71.25" width="453" height="192.5" as="geometry" />
         </mxCell>
-        <mxCell id="-Dbx7_Q4W2dPH2tqTiiN-69" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;StrategyArmory&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="-Dbx7_Q4W2dPH2tqTiiN-65">
+        <mxCell id="-Dbx7_Q4W2dPH2tqTiiN-69" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;StrategyDispatch&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="-Dbx7_Q4W2dPH2tqTiiN-65">
           <mxGeometry x="170" y="1.25" width="147" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-Dbx7_Q4W2dPH2tqTiiN-94" value="" style="group" vertex="1" connectable="0" parent="-Dbx7_Q4W2dPH2tqTiiN-64">
