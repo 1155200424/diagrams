@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T08:17:22.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GGgtLXeP5JdP5p-6z9Kc" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T08:19:23.533Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lKWoEBbHVb1KL_mZoIiZ" version="23.1.7" type="github">
   <diagram name="第 1 页" id="N3g3eYjx2cAfwvjbyYHu">
     <mxGraphModel dx="2034" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -770,7 +770,13 @@
         <mxCell id="YbZUYWsE0-bbAopeTfLv-36" value="awardId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="5550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbZUYWsE0-bbAopeTfLv-37" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbZUYWsE0-bbAopeTfLv-37" target="YbZUYWsE0-bbAopeTfLv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbZUYWsE0-bbAopeTfLv-37" target="YbZUYWsE0-bbAopeTfLv-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-37" value="库存检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-525" y="5680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbZUYWsE0-bbAopeTfLv-38" value="兜底奖励" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -781,6 +787,18 @@
         </mxCell>
         <mxCell id="YbZUYWsE0-bbAopeTfLv-42" value="抽奖次数够" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-458" y="5620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-43" value="awardId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="5785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-44" value="兜底奖励" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="5785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-47" value="库存不够" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="5740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-48" value="库存够" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="5740" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
