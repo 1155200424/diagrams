@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T06:51:04.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZwvxYGUfbgVurrJXRHbp" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T07:00:13.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jZbonXUOYYYlmpFJzG3b" version="23.1.7" type="github">
   <diagram name="第 1 页" id="N3g3eYjx2cAfwvjbyYHu">
     <mxGraphModel dx="2034" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -757,6 +757,9 @@
         </mxCell>
         <mxCell id="YbZUYWsE0-bbAopeTfLv-33" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;DefaultChainFactory&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-445" y="5260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbZUYWsE0-bbAopeTfLv-35" value="装配责任链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="5229" width="70" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
