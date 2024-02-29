@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T08:17:14.525Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fbYMwhGGSCWuSz2yk1sH" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T08:34:02.372Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="m4m6hzZACnHD_fvFyCxZ" version="23.1.7" type="github">
   <diagram name="第 1 页" id="N3g3eYjx2cAfwvjbyYHu">
     <mxGraphModel dx="1853" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -885,6 +885,24 @@
         </mxCell>
         <mxCell id="25eZ6hh7ipFaTC6cz-hf-7" value="消息队列&lt;br&gt;异步更新MySQL数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="5350" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25eZ6hh7ipFaTC6cz-hf-8" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;strategyArmory&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="6380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25eZ6hh7ipFaTC6cz-hf-9" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;queryRaffleAwardList&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="6450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25eZ6hh7ipFaTC6cz-hf-10" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;randomRaffle&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-505" y="6520" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25eZ6hh7ipFaTC6cz-hf-11" value="策略装配" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="6395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25eZ6hh7ipFaTC6cz-hf-12" value="查询奖品列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="6462.5" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="25eZ6hh7ipFaTC6cz-hf-13" value="抽奖" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-332.5" y="6532.5" width="75" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
