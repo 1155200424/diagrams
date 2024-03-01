@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T08:30:04.965Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GapL_ToSoOnpYNAck4AD" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T12:35:02.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nzhP-p85cjzC869E26rb" version="23.1.8" type="github">
   <diagram name="第 1 页" id="-yW8K2cIxQd3r6JCjM-w">
-    <mxGraphModel dx="1140" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,11 +281,30 @@
         <mxCell id="J14YJ-X6Wbk_EFNUaiwi-17" value="判断是否需要刷新&lt;br&gt;超过75" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1490" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="J14YJ-X6Wbk_EFNUaiwi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J14YJ-X6Wbk_EFNUaiwi-18" target="J14YJ-X6Wbk_EFNUaiwi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="J14YJ-X6Wbk_EFNUaiwi-18" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 12px; background-color: rgb(251, 251, 251); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;semaphoreMap&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J14YJ-X6Wbk_EFNUaiwi-20" value="semaphore信号量保证只有一个线程能刷新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="J14YJ-X6Wbk_EFNUaiwi-20" value="semaphore信号量保证只有一个线程能刷新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1596" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J14YJ-X6Wbk_EFNUaiwi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J14YJ-X6Wbk_EFNUaiwi-21" target="FBqa_B7aNncu9lDiiUvF-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="1804" />
+              <mxPoint x="850" y="1804" />
+              <mxPoint x="850" y="1280" />
+              <mxPoint x="551" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J14YJ-X6Wbk_EFNUaiwi-21" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12px;&quot;&gt;threadPoolExecutor&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="945" y="1720" width="130" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="J14YJ-X6Wbk_EFNUaiwi-23" value="线程池异步刷新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1690" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
