@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T08:22:13.798Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U6WW-D_tTzRwUlGTxB8V" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T11:59:48.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RVQNT5KMXtnVr_aki2aJ" version="24.0.0" type="github">
   <diagram name="第 1 页" id="-yW8K2cIxQd3r6JCjM-w">
-    <mxGraphModel dx="1578" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="760" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,6 +504,30 @@
         </mxCell>
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-66" value="异步发送&lt;div&gt;短信&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="670" y="3019" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-67" value="headers&lt;div&gt;里添加跨域配置&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="511" y="3390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-68" value="白名单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TSW_GzoG-3L-PAw_cQ0U-69" target="TSW_GzoG-3L-PAw_cQ0U-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-69" value="cookie&lt;div&gt;token&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="955" y="3390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-70" value="userID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="3390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-72" value="根据token&lt;div&gt;从Redis中获取userId&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="3370" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-73" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="3470" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.449;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TSW_GzoG-3L-PAw_cQ0U-73" target="TSW_GzoG-3L-PAw_cQ0U-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
