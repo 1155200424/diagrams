@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T08:12:35.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rtzQi0-g8eS8S9CX1Jfy" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T08:22:13.798Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U6WW-D_tTzRwUlGTxB8V" version="24.0.0" type="github">
   <diagram name="第 1 页" id="-yW8K2cIxQd3r6JCjM-w">
     <mxGraphModel dx="1578" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,6 +368,9 @@
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-17" value="login" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="294" y="2830" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TSW_GzoG-3L-PAw_cQ0U-18" target="TSW_GzoG-3L-PAw_cQ0U-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="504" y="2800" width="166" height="220" as="geometry" />
         </mxCell>
@@ -378,7 +381,7 @@
           <mxGeometry x="521" y="2830" width="139" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-22" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="561" y="3150" width="60" height="80" as="geometry" />
+          <mxGeometry x="557" y="3150" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-23" value="校验验证码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="554" y="2800" width="73" height="30" as="geometry" />
@@ -487,8 +490,20 @@
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-59" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;sendLoginCode&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="288" y="2950" width="126" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TSW_GzoG-3L-PAw_cQ0U-60" target="TSW_GzoG-3L-PAw_cQ0U-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TSW_GzoG-3L-PAw_cQ0U-60" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;sendLoginCode&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="520.5" y="2950" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-62" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;ThreadPoolExecutor&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630.5" y="3070" width="197" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-65" value="四位验证码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="545.5" y="2919" width="83" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TSW_GzoG-3L-PAw_cQ0U-66" value="异步发送&lt;div&gt;短信&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="3019" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
