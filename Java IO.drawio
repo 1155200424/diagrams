@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T07:25:54.278Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NYJZWyL0TI-3GXPxqYmq" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T07:32:08.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="uSSdXLax1hezZDRfULfv" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
     <mxGraphModel dx="2293" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
           <mxGeometry x="-477.5" y="2375" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-90" value="ACK消息包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="2500" width="120" height="60" as="geometry" />
+          <mxGeometry x="186.5" y="2480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-91" target="coaX5mG1cFPbBgSBIzdM-119">
           <mxGeometry relative="1" as="geometry" />
@@ -283,7 +283,7 @@
           <mxGeometry x="-90" y="2480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-92" value="业务消息包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2500" width="120" height="60" as="geometry" />
+          <mxGeometry x="502" y="2480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-93" target="coaX5mG1cFPbBgSBIzdM-96">
           <mxGeometry relative="1" as="geometry" />
@@ -356,8 +356,20 @@
         <mxCell id="coaX5mG1cFPbBgSBIzdM-114" value="living服务中消费" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-413" y="2890" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-119" target="coaX5mG1cFPbBgSBIzdM-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-119" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;ImContextUtils&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;根据ctx取出userId和appId&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-143.25" y="2590" width="226.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-121" value="Redis Zset&lt;div style=&quot;font-size: 16px;&quot;&gt;key: userId % 10000&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;value: userId&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;score: 当前时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="2680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-122" value="Redis Zset&lt;div style=&quot;font-size: 16px;&quot;&gt;删除过期消息包&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-123" value="Redis&amp;nbsp;&lt;div&gt;IP,UserId,AppId&lt;/div&gt;&lt;div&gt;续费&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
