@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T11:33:47.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KL5xZk2LU2Ma1YBw7v42" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T11:41:53.580Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AO0q1gwRaef5HGDXD5fJ" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
     <mxGraphModel dx="2794" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -634,11 +634,44 @@
         <mxCell id="coaX5mG1cFPbBgSBIzdM-203" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;sendReview&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-930" y="4740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="coaX5mG1cFPbBgSBIzdM-204" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-707" y="4740" width="120" height="60" as="geometry" />
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-204" target="coaX5mG1cFPbBgSBIzdM-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-204" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;BizImMsgHandler&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-707" y="4740" width="167" height="60" as="geometry" />
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-206" value="消息id1003" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="4740" width="77" height="30" as="geometry" />
+          <mxGeometry x="-805.5" y="4740" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-209" value="业务id5555" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-802" y="4770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-210" target="coaX5mG1cFPbBgSBIzdM-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-210" value="RocketMQ&lt;div style=&quot;font-size: 16px;&quot;&gt;发送消息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="4740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-212" target="coaX5mG1cFPbBgSBIzdM-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-212" value="MSG服务消费" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="4900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-214" value="根据roomId从Redis中查询userId集合" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="5020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-216" target="coaX5mG1cFPbBgSBIzdM-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-216" value="Redis Set&lt;div style=&quot;font-size: 16px;&quot;&gt;Key: roomId&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;Value:userId&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-255.62" y="5020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-217" value="将userId和roomId绑定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-258.12" y="4990" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-219" value="living服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-572" y="5032.5" width="78" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
