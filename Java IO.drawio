@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T10:30:02.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BrB10rBBWmscYSyo97F-" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T10:36:16.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-cHTwkJKe73mkbc2qmYI" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
     <mxGraphModel dx="2680" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -539,8 +539,22 @@
         <mxCell id="coaX5mG1cFPbBgSBIzdM-172" value="查询user对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-827" y="3930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="coaX5mG1cFPbBgSBIzdM-175" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-550.5" y="4020" width="120" height="60" as="geometry" />
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-530" y="4210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-175" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;anchorConfig&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="4180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-176" value="获取主播UserId和roomId" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="4160" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-178" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;connectImServer&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="4180" width="153" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-179" value="服务器上随机获取个IM IP&lt;div&gt;建立WebSocket连接&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-525.75" y="4150" width="138.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
