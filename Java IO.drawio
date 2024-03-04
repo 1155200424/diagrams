@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:18:40.259Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AuJVRFKxryWp7GUymSN7" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:24:08.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HpDH7Vr3xa6Giwhjvxl2" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
     <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,11 +229,25 @@
         <mxCell id="coaX5mG1cFPbBgSBIzdM-72" value="WebSocket编码器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="568.5" y="1905" width="101" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-73" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;shutdownGracefully()&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="2070" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-75" value="JVM优雅关闭" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="498.5" y="2040" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="coaX5mG1cFPbBgSBIzdM-78" target="coaX5mG1cFPbBgSBIzdM-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-78" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;ChannelHandlerContextCache&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;存入IP和端口&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="2210" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-79" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;channelFuture = bootstrap.bind(&lt;span style=&quot;&quot;&gt;port&lt;/span&gt;).sync();&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="274" y="2320" width="432" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
