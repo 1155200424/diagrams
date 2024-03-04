@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T10:50:48.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="d8CuKcEMiVCRS8f7A_Yc" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T10:51:52.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FLn3McnBxiRtfB1Q-1-Y" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
     <mxGraphModel dx="2680" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -601,8 +601,8 @@
         <mxCell id="coaX5mG1cFPbBgSBIzdM-192" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;HeartBeatImMsgHandler&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-279.75" y="4410" width="213" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="coaX5mG1cFPbBgSBIzdM-193" value="创建" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-486" y="4239" width="60" height="30" as="geometry" />
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-193" value="根据userId创建token" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-514.5" y="4240" width="116" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
