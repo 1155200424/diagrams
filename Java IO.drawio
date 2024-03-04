@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T07:51:39.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="iW-4wuf45WxlKqLMWCV1" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:25:23.897Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Yw57t4-c8n1I8XhS9wfI" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
     <mxGraphModel dx="3120" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,6 +433,9 @@
             <mxPoint x="-280" y="2340" as="sourcePoint" />
             <mxPoint x="-230" y="2290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-143" value="Router层发送消息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="3220" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
