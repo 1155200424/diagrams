@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:35:37.633Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="esIl9osqPYbbryyZkqqK" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:40:02.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="i68A81ByLB1dtESDHKjv" version="24.0.0" type="github">
   <diagram name="第 1 页" id="n3AWeBgMfQS4I0mqe7hV">
-    <mxGraphModel dx="1466" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1511" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,6 +254,9 @@
         </mxCell>
         <mxCell id="coaX5mG1cFPbBgSBIzdM-83" value="WebSocket连接处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="544" y="1950" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="coaX5mG1cFPbBgSBIzdM-84" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;WsImServerCoreHandler&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1970" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
