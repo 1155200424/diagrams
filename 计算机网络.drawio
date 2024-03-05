@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T10:12:49.392Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZUg0AJwVvosD0eKSACtp" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T12:57:30.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ppoOFggKvY3ty3eQJYJn" version="24.0.1" type="github">
   <diagram name="第 1 页" id="g__cL9et6w1Bz4wDRFb3">
     <mxGraphModel dx="1719" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -607,7 +607,7 @@
         <mxCell id="15ZKsorvunDyqUg101Yk-24" value="操作系统 协议栈" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="925" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="15ZKsorvunDyqUg101Yk-30" value="确认号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="15ZKsorvunDyqUg101Yk-30" value="序列号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15ZKsorvunDyqUg101Yk-31" value="状态位&lt;div&gt;ACK&lt;/div&gt;&lt;div&gt;SYN&lt;/div&gt;&lt;div&gt;FIN&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -696,6 +696,12 @@
         </mxCell>
         <mxCell id="15ZKsorvunDyqUg101Yk-63" value="内核态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="1509" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15ZKsorvunDyqUg101Yk-64" value="确认应答号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1000" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15ZKsorvunDyqUg101Yk-65" value="重传机制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="4530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
