@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T06:15:23.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tGlql8XzNubOlFAGFGYR" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T08:24:53.729Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7vVY-qTv25ZseJao7rMs" version="24.0.1" type="github">
   <diagram name="第 1 页" id="g__cL9et6w1Bz4wDRFb3">
     <mxGraphModel dx="1853" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -755,6 +755,66 @@
         </mxCell>
         <mxCell id="AkQWqV0eesa2FPXoQGNl-17" value="NXT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-570" y="4790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-18" value="DHCP客户端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="4980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-19" value="DHCP服务端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="103" y="4980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="5320" as="sourcePoint" />
+            <mxPoint x="-180" y="5040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="164" y="5320" as="sourcePoint" />
+            <mxPoint x="164" y="5040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="5090" as="sourcePoint" />
+            <mxPoint x="160" y="5090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DHCP Discover&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="5060" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-24" value="UDP广播" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="5090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="164" y="5160" as="sourcePoint" />
+            <mxPoint x="-180" y="5160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-26" value="DHCP OFFER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="5130" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-27" value="IP、子网掩码、DNS、IP地址租用期" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="5160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="5250" as="sourcePoint" />
+            <mxPoint x="160" y="5250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-30" value="DHCP REQUEST" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-67" y="5220" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="166" y="5300" as="sourcePoint" />
+            <mxPoint x="-180" y="5300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkQWqV0eesa2FPXoQGNl-32" value="DHCP ACK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-69.5" y="5270" width="137" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
