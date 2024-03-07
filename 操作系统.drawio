@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T07:28:43.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2lGhD7mnWSQ3UXa1TyTN" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T07:48:02.021Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TKzMPf8kUQ3jnUT6t9_I" version="24.0.2" type="github">
   <diagram name="第 1 页" id="6GhYlpOtdUbrr685tgYN">
     <mxGraphModel dx="1026" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -757,10 +757,40 @@
           <mxGeometry x="365" y="5640" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zmO6DIjKMpRMidISSM9M-43" value="进程创建&lt;div style=&quot;font-size: 16px;&quot;&gt;申请PCB(PID)&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;分配资源&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;加入就绪队列&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="195" y="5845" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="5845" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zmO6DIjKMpRMidISSM9M-44" value="终止进程&lt;div&gt;找到PCB&lt;/div&gt;&lt;div&gt;如果处于执行状态立即剥夺CPU，分配给其他&lt;/div&gt;&lt;div&gt;终止子进程&lt;/div&gt;&lt;div&gt;资源归还操作系统&lt;/div&gt;&lt;div&gt;删除PCB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="380" y="5817.5" width="166" height="135" as="geometry" />
+          <mxGeometry x="391" y="5817.5" width="166" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-46" value="进程阻塞&lt;div style=&quot;font-size: 16px;&quot;&gt;找到PCB&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;阻塞；保护现场&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;加入阻塞队列&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="615" y="5845" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-47" value="进程唤醒&lt;div style=&quot;font-size: 16px;&quot;&gt;在队列找到PCB&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;唤醒&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;加入就绪队列&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="810" y="5840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-48" value="寄存器&lt;div&gt;程序计数器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="6070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-49" value="CPU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="6050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="6110" as="sourcePoint" />
+            <mxPoint x="540" y="6170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-51" value="记录指令运行位置与下一条指令位置" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="6160" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="6090" as="sourcePoint" />
+            <mxPoint x="530" y="6030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmO6DIjKMpRMidISSM9M-53" value="缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527" y="6010" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
