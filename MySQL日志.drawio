@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T14:24:26.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="m8CdzPKdLLItVLwQpaX9" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T14:25:12.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="i8tb6zkRq7u5uP6xY9ra" version="24.0.4" type="github">
   <diagram name="第 1 页" id="kM4niEnH-ip9MTfZpNX0">
     <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,13 +222,13 @@
           <mxGeometry x="170" y="790" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ASfzTqs12n-r9u4u6yfH-1" value="不提交" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="267.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="750" y="267.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ASfzTqs12n-r9u4u6yfH-2" value="持久化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="302.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="750" y="302.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ASfzTqs12n-r9u4u6yfH-3" value="写入redo log buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="332.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="730" y="332.5" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
