@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-03-11T13:53:18.555Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5vgvyI4uMIlpZGrftWwt" version="24.0.4" type="github">
+  <diagram name="第 1 页" id="l5pCDogwGcKyGTqPoBz-">
+    <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WyMl-sQzxoYsrFhzqmVi-1" target="WyMl-sQzxoYsrFhzqmVi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WyMl-sQzxoYsrFhzqmVi-1" target="WyMl-sQzxoYsrFhzqmVi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WyMl-sQzxoYsrFhzqmVi-1" target="WyMl-sQzxoYsrFhzqmVi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-1" value="表级锁" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-2" value="MDL锁&lt;div&gt;防止表结构变化&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="294" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-4" value="意向锁" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-8" value="对记录进行修改时会给表先加上意向独占锁&lt;div style=&quot;font-size: 16px;&quot;&gt;这样就不用就遍历判断表里有没有锁&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="414" y="290" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-10" value="AutoINC锁&lt;div&gt;主键自增&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="294" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WyMl-sQzxoYsrFhzqmVi-12" target="WyMl-sQzxoYsrFhzqmVi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WyMl-sQzxoYsrFhzqmVi-12" target="WyMl-sQzxoYsrFhzqmVi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WyMl-sQzxoYsrFhzqmVi-12" target="WyMl-sQzxoYsrFhzqmVi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-12" value="行级锁" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-13" value="Record Lock" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-14" value="Gap Lock" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-15" value="Next-key Lock" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-19" value="锁一条记录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="547.5" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-20" value="锁一个范围 开区间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="414" y="633.75" width="90" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WyMl-sQzxoYsrFhzqmVi-21" value="锁一个范围&amp;nbsp;&lt;div&gt;左开右闭&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="420" y="733.75" width="90" height="32.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
