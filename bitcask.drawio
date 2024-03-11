@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T11:49:51.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.4" etag="TEv9pjMEdqrmoVKgqem9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T13:01:32.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="M4wXPIG47oFXBm7TeI7x" version="24.0.4" type="github">
   <diagram name="第 1 页" id="GXPfFT2xxyqhvOAY_Vl7">
-    <mxGraphModel>
+    <mxGraphModel dx="1853" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-90" y="220" width="430" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-3">
+          <mxGeometry width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-2" value="Index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-3">
+          <mxGeometry x="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-10" value="Indexer索引接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-3">
+          <mxGeometry x="135" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="TPFVE5sRox4Qed1hnaRF-3" source="TPFVE5sRox4Qed1hnaRF-11" target="TPFVE5sRox4Qed1hnaRF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-11" value="BTree B树索引" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-3">
+          <mxGeometry x="137.5" y="120" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-4" value="" style="group;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400" y="220" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-4">
+          <mxGeometry width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-6" value="Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-4">
+          <mxGeometry x="174.25" width="61.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-32" value="DataFile数据文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-4">
+          <mxGeometry x="140" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-33" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;LogRecord&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;数据文件记录&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-4">
+          <mxGeometry x="30" y="100" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-34" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;LogRecordPos&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;数据文件索引&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-4">
+          <mxGeometry x="235.75" y="100" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="-40" width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-7">
+          <mxGeometry width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-9" value="Fio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-7">
+          <mxGeometry x="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-13" value="IOManager接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-7">
+          <mxGeometry x="130" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-18" value="file_io文件io" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="TPFVE5sRox4Qed1hnaRF-7">
+          <mxGeometry x="130" y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPFVE5sRox4Qed1hnaRF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="TPFVE5sRox4Qed1hnaRF-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="110" as="sourcePoint" />
+            <mxPoint x="195" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
