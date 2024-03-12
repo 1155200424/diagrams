@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T07:36:52.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SbLTAy8EG_xg529jHJ9_" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T07:37:51.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HQRfeP1edRpagNmb3Fch" version="24.0.5" type="github">
   <diagram name="第 1 页" id="Uc8pmaHipOv8BrhtGk-N">
     <mxGraphModel dx="1026" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,12 @@
         </mxCell>
         <mxCell id="1E-S2F3XiOlgd8H4mSnj-3" value="堆&lt;div style=&quot;font-size: 16px;&quot;&gt;方法区&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="190" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E-S2F3XiOlgd8H4mSnj-4" value="线程私有" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1E-S2F3XiOlgd8H4mSnj-5" value="线程共有" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
