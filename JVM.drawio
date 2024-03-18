@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T07:53:22.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rAw1W8MhpthlOhb0gSpp" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T02:39:03.107Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rf8MVwapW9cP1TKoYqjq" version="24.0.7" type="github">
   <diagram name="第 1 页" id="Uc8pmaHipOv8BrhtGk-N">
-    <mxGraphModel dx="1140" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,42 +239,57 @@
         <mxCell id="1E-S2F3XiOlgd8H4mSnj-79" value="静态变量赋值&lt;div&gt;执行静态代码块&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1299" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCfrYUsGxeNv4KQO1quB-1" target="XCfrYUsGxeNv4KQO1quB-4">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XCfrYUsGxeNv4KQO1quB-1" target="XCfrYUsGxeNv4KQO1quB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-1" value="new指令" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-1" value="new指令" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="220" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XCfrYUsGxeNv4KQO1quB-4">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XCfrYUsGxeNv4KQO1quB-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-4" value="常量池&lt;div&gt;检查类符号引用&lt;/div&gt;&lt;div&gt;检查是否加载过&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-4" value="常量池&lt;div&gt;检查类符号引用&lt;/div&gt;&lt;div&gt;检查是否加载过&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="415" y="1590" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XCfrYUsGxeNv4KQO1quB-7">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XCfrYUsGxeNv4KQO1quB-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-7" value="分配内存&lt;div&gt;指针碰撞&lt;/div&gt;&lt;div&gt;空闲列表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-7" value="分配内存&lt;div&gt;指针碰撞&lt;/div&gt;&lt;div&gt;空闲列表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="605" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XCfrYUsGxeNv4KQO1quB-9" target="XCfrYUsGxeNv4KQO1quB-10">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XCfrYUsGxeNv4KQO1quB-9" target="XCfrYUsGxeNv4KQO1quB-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-9" value="初始化零值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-9" value="初始化零值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="790" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XCfrYUsGxeNv4KQO1quB-10" target="XCfrYUsGxeNv4KQO1quB-12">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XCfrYUsGxeNv4KQO1quB-10" target="XCfrYUsGxeNv4KQO1quB-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-10" value="设置对象头" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-10" value="设置对象头" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="990" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCfrYUsGxeNv4KQO1quB-12" value="init" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="XCfrYUsGxeNv4KQO1quB-12" value="init" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1181" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-6pmPPJAoXiYJ2VGnc4-1" value="加载" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-6pmPPJAoXiYJ2VGnc4-2" value="验证" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-6pmPPJAoXiYJ2VGnc4-3" value="准备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-6pmPPJAoXiYJ2VGnc4-4" value="解析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-6pmPPJAoXiYJ2VGnc4-5" value="初始化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
