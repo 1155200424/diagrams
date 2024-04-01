@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T11:57:56.480Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Z7FwkzL1QfujG77HLiNK" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T12:12:33.309Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ErIhXia_Tf4VblS4Ufjz" version="24.2.1" type="github">
   <diagram name="第 1 页" id="-yW8K2cIxQd3r6JCjM-w">
-    <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1228,32 +1228,29 @@
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-19" value="Msg服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-16">
           <mxGeometry x="27" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hnjzG_TqPLrPlk-mAtAK-20" value="IM系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-16">
-          <mxGeometry x="27" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hnjzG_TqPLrPlk-mAtAK-21" value="IM系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-16">
-          <mxGeometry x="27" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-36" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="299.5" y="3815" width="229" height="310" as="geometry" />
+          <mxGeometry x="299.5" y="3750" width="290" height="375" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
-          <mxGeometry width="229" height="310" as="geometry" />
+          <mxGeometry width="229" height="375" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-31" value="LoginHandler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
-          <mxGeometry x="54.5" y="5" width="120" height="60" as="geometry" />
+          <mxGeometry x="54.5" y="6.048387096774194" width="120" height="72.58064516129032" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-32" value="LogoutHandler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
-          <mxGeometry x="54.5" y="65" width="120" height="60" as="geometry" />
+          <mxGeometry x="54.5" y="78.62903225806451" width="120" height="72.58064516129032" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-33" value="BizHandler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
-          <mxGeometry x="54.5" y="125" width="120" height="60" as="geometry" />
+          <mxGeometry x="54.5" y="151.20967741935485" width="120" height="72.58064516129032" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-34" value="ACKHandler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
-          <mxGeometry x="54.5" y="185" width="120" height="60" as="geometry" />
+          <mxGeometry x="54.5" y="223.79032258064518" width="120" height="72.58064516129032" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-35" value="HeartBeat" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
-          <mxGeometry x="54.5" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="54.5" y="296.3709677419355" width="120" height="72.58064516129032" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-48" value="RemoveByRange" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hnjzG_TqPLrPlk-mAtAK-36">
+          <mxGeometry x="180.5" y="310.2806451612905" width="103.5" height="44.75806451612903" as="geometry" />
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-37" value="WebSocket" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="200" y="4300" width="80" height="30" as="geometry" />
@@ -1278,6 +1275,39 @@
         </mxCell>
         <mxCell id="hnjzG_TqPLrPlk-mAtAK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hnjzG_TqPLrPlk-mAtAK-32" target="hnjzG_TqPLrPlk-mAtAK-43">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-46" value="Redis Zset&lt;div&gt;Key: UserId % 100&lt;/div&gt;&lt;div&gt;field: userId&lt;/div&gt;&lt;div&gt;score: 时间戳&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="4065" width="130" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-49" value="Redis Hash&lt;div&gt;Key: UserId % 100&lt;/div&gt;&lt;div&gt;field: userId&lt;/div&gt;&lt;div&gt;value: 重试次数&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="3970.08" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="hnjzG_TqPLrPlk-mAtAK-35" target="hnjzG_TqPLrPlk-mAtAK-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hnjzG_TqPLrPlk-mAtAK-34" target="hnjzG_TqPLrPlk-mAtAK-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hnjzG_TqPLrPlk-mAtAK-19" target="hnjzG_TqPLrPlk-mAtAK-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hnjzG_TqPLrPlk-mAtAK-53" target="hnjzG_TqPLrPlk-mAtAK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-53" value="Router层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="615" y="4710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hnjzG_TqPLrPlk-mAtAK-19" target="hnjzG_TqPLrPlk-mAtAK-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-56" value="根据IM系统IP进行转发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454" y="4700" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-57" value="BatchSendRpc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="831" y="4710" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnjzG_TqPLrPlk-mAtAK-58" value="BatchReceiveRpc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="418" y="4646" width="109" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
