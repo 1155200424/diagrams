@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T07:31:25.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Hpz0BvOrTLAKgdNPH9gM" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T09:49:34.515Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Q_dLJjpPh71czry5tqpF" version="24.2.1" type="github">
   <diagram name="第 1 页" id="Za3HKC6AAFj8A5Fl59my">
     <mxGraphModel dx="1026" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,20 +34,32 @@
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-5" value="Worker EventLoopGroup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="35" y="150" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wPqtdyWGyqD5KA9EBB5L-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wPqtdyWGyqD5KA9EBB5L-8" target="wPqtdyWGyqD5KA9EBB5L-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-8" value="EventLoop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wPqtdyWGyqD5KA9EBB5L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wPqtdyWGyqD5KA9EBB5L-9" target="wPqtdyWGyqD5KA9EBB5L-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-9" value="EventLoop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="220" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wPqtdyWGyqD5KA9EBB5L-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wPqtdyWGyqD5KA9EBB5L-12" target="wPqtdyWGyqD5KA9EBB5L-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-12" value="Channel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wPqtdyWGyqD5KA9EBB5L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wPqtdyWGyqD5KA9EBB5L-13" target="wPqtdyWGyqD5KA9EBB5L-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-13" value="Channel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="260" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-14" value="ChannelPipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="55" y="300" width="110" height="30" as="geometry" />
+          <mxGeometry x="55" y="330" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wPqtdyWGyqD5KA9EBB5L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wPqtdyWGyqD5KA9EBB5L-15" target="wPqtdyWGyqD5KA9EBB5L-17">
           <mxGeometry relative="1" as="geometry" />
